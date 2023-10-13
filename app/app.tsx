@@ -93,6 +93,7 @@ function App(props: AppProps) {
   }
 
   // otherwise, we're ready to render the app
+
   return (
     <SafeAreaProvider initialMetrics={initialWindowMetrics}>
       <ErrorBoundary catchErrors={Config.catchErrors}>

@@ -1,7 +1,9 @@
 {
   "compilerOptions": {
+    "strict": true,
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
     "jsx": "react-native",
     "module": "es2015",
@@ -15,7 +17,8 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "baseUrl": "./"
+    "baseUrl": "./",
+    "paths": { "~/*": ["app/*"] }
   },
   "exclude": ["node_modules"],
   "include": ["index.js", "App.js", "app", "test", "*.js"],
